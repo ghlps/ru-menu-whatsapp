@@ -8,7 +8,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.32.14
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.99.0
 	github.com/joho/godotenv v1.5.1
-	go.mau.fi/whatsmeow v0.0.0-20260730092514-662ad1dc6900
+	go.mau.fi/whatsmeow v0.0.0-20260806224404-e277b766ab33
 	google.golang.org/protobuf v1.36.11
 	modernc.org/sqlite v1.48.2
 )
