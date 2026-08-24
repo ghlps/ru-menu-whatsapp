@@ -1,6 +1,6 @@
 module ghlps/whatsapp
 
-go 1.25.5
+go 1.26.0
 
 require (
 	github.com/aws/aws-lambda-go v1.54.0
@@ -8,7 +8,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.32.14
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.99.0
 	github.com/joho/godotenv v1.5.1
-	go.mau.fi/whatsmeow v0.0.0-20260816113502-fb386f152837
+	go.mau.fi/whatsmeow v0.0.0-20260821141805-33cfac511629
 	google.golang.org/protobuf v1.36.12
 	modernc.org/sqlite v1.48.2
 )
@@ -44,7 +44,7 @@ require (
 	github.com/rs/zerolog v1.35.1 // indirect
 	github.com/vektah/gqlparser/v2 v2.5.36 // indirect
 	go.mau.fi/libsignal v0.2.2 // indirect
-	go.mau.fi/util v0.10.0 // indirect
+	go.mau.fi/util v0.10.1-0.20260820140024-eb612d936fde // indirect
 	golang.org/x/crypto v0.55.0 // indirect
 	golang.org/x/exp v0.0.0-20260813180055-c1d0aacb2297 // indirect
 	golang.org/x/net v0.58.0 // indirect
