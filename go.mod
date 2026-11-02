@@ -8,7 +8,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.32.14
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.99.0
 	github.com/joho/godotenv v1.5.1
-	go.mau.fi/whatsmeow v0.0.0-20261017175727-b2b1e71d45e2
+	go.mau.fi/whatsmeow v0.0.0-20261031222104-5d4657a5c29e
 	google.golang.org/protobuf v1.36.12
 	modernc.org/sqlite v1.48.2
 )
@@ -47,7 +47,7 @@ require (
 	go.mau.fi/util v0.11.0 // indirect
 	golang.org/x/crypto v0.58.0 // indirect
 	golang.org/x/exp v0.0.0-20261014143641-f0251eb4aa3e // indirect
-	golang.org/x/net v0.61.0 // indirect
+	golang.org/x/net v0.62.0 // indirect
 	golang.org/x/sync v0.24.0 // indirect
 	golang.org/x/sys v0.49.0 // indirect
 	golang.org/x/text v0.43.0 // indirect
