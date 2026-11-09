@@ -8,7 +8,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/config v1.32.14
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.99.0
 	github.com/joho/godotenv v1.5.1
-	go.mau.fi/whatsmeow v0.0.0-20261031222104-5d4657a5c29e
+	go.mau.fi/whatsmeow v0.0.0-20261107160454-79dc2a8c33df
 	google.golang.org/protobuf v1.36.12
 	modernc.org/sqlite v1.48.2
 )
@@ -43,7 +43,7 @@ require (
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/rs/zerolog v1.35.1 // indirect
 	github.com/vektah/gqlparser/v2 v2.5.64 // indirect
-	go.mau.fi/libsignal v0.2.2 // indirect
+	go.mau.fi/libsignal v0.2.3 // indirect
 	go.mau.fi/util v0.11.0 // indirect
 	golang.org/x/crypto v0.58.0 // indirect
 	golang.org/x/exp v0.0.0-20261014143641-f0251eb4aa3e // indirect
