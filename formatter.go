@@ -7,20 +7,21 @@ import (
 	"time"
 )
 
-func fmtEmoji(meal Meal) string {
+func fmtLine(meal Meal) string {
 	emojis := ""
 	for _, icon := range meal.Icons {
-		if emoji, exists := iconsMap[icon]; exists {
+		cleanIcon := strings.TrimSpace(icon)
+		if emoji, exists := iconsMap[cleanIcon]; exists {
 			emojis += " " + emoji
 		}
 	}
-	return meal.Name + emojis
+	return fmt.Sprintf("%s %s _(%skcal)_", meal.Name, emojis, strings.TrimSpace(meal.Calories))
 }
 
 func fmtMeal(meals []Meal) string {
 	var formatted []string
 	for _, meal := range meals {
-		line := fmtEmoji(meal)
+		line := fmtLine(meal)
 		if meal.Changed {
 			line += " (alterado)"
 		}
@@ -54,6 +55,6 @@ func fmtMenu(evt EventLambda) string {
 		}
 	}
 
-	sections = append(sections, legend, fmt.Sprintf(taken, menu.Restaurant.Url), fmt.Sprintf(channel, evt.RequestPayload.WhatsAppLink), copyright)
+	sections = append(sections, legend, warningAI, fmt.Sprintf(taken, menu.Restaurant.Url), fmt.Sprintf(channel, evt.RequestPayload.WhatsAppLink), copyright)
 	return strings.Join(sections, "\n\n")
 }

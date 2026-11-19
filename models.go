@@ -1,16 +1,17 @@
 package main
 
 type Menu struct {
-	Restaurant *Restaurant       `json:"restaurant" `
-	Date       string            `json:"date"      `
-	ImgMenu    *string           `json:"imgMenu"    `
-	Meals      map[string][]Meal `json:"meals"      `
+	Restaurant *Restaurant       `json:"restaurant"`
+	Date       string            `json:"date"`
+	ImgMenu    *string           `json:"imgMenu"`
+	Meals      map[string][]Meal `json:"meals"`
 }
 
 type Meal struct {
-	Name    string   `json:"name"  `
-	Icons   []string `json:"icons" `
-	Changed bool     `json:"changed"`
+	Name     string   `json:"name"`
+	Icons    []string `json:"icons"`
+	Changed  bool     `json:"changed"`
+	Calories string   `json:"calories"`
 }
 
 type Restaurant struct {
