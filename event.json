@@ -13,15 +13,153 @@
     "whatsAppNumber": "120363405768268322@newsletter",
     "whatsAppLink": "https://whatsapp.com/channel/0029VazQCEaEQIarkT6jii2o"
   },
-  "responseContext": { "statusCode": 200, "executedVersion": "$LATEST" },
+  "responseContext": {
+    "statusCode": 200,
+    "executedVersion": "$LATEST"
+  },
   "responsePayload": {
-    "restaurant": {
-      "name": "Agrárias",
-      "code": "AGR",
-      "url": "https://p4e.ufpr.br/ru/cardapio-ru-agrarias/"
+    "date": "18/11/2026",
+    "imgMenu": null,
+    "meals": {
+        "breakfast": [
+          {
+            "calories": "250-350",
+            "changed": false,
+            "icons": [
+              "Contém glúten",
+              "Contêm ovos"
+            ],
+            "name": "Pão hot-dog ou integral com ovo mexido"
+          },
+          {
+            "calories": "200-300",
+            "changed": false,
+            "icons": [
+              "Indicado para veganos",
+              "Contém glúten"
+            ],
+            "name": "Opção vegana: pão hot-dog ou integral com hommus"
+          },
+          {
+            "calories": "50-80",
+            "changed": false,
+            "icons": [],
+            "name": "Maçã{ vegan}"
+          }
+        ],
+        "dinner": [
+          {
+            "calories": "400-600",
+            "changed": false,
+            "icons": [
+              "Contêm produtos de origem animal",
+              "Contêm produtos de origem suína",
+              "Contém ingrediente(s) potencialmente alergênico(s)"
+            ],
+            "name": "Copa lombo ao molho de chefe"
+          },
+          {
+            "calories": "300-450",
+            "changed": false,
+            "icons": [
+              "Contêm ovos",
+              "Contém leite e/ou derivados",
+              "Contém glúten"
+            ],
+            "name": "2ª opção: omelete"
+          },
+          {
+            "calories": "350-500",
+            "changed": false,
+            "icons": [
+              "Indicado para veganos"
+            ],
+            "name": "Opção vegana: Lentilha com batata salsa ao molho escuro"
+          },
+          {
+            "calories": "150-250",
+            "changed": false,
+            "icons": [
+              "Indicado para veganos",
+              "Contém glúten"
+            ],
+            "name": "Sopa minestrone"
+          },
+          {
+            "calories": "100-200",
+            "changed": false,
+            "icons": [
+              "Indicado para veganos",
+              "Contém glúten"
+            ],
+            "name": "Saladas de folhosas e tabule"
+          },
+          {
+            "calories": "30-60",
+            "changed": false,
+            "icons": [
+              "Indicado para veganos"
+            ],
+            "name": "Molho para saladas: vinagrete"
+          }
+        ],
+        "lunch": [
+          {
+            "calories": "500-700",
+            "changed": false,
+            "icons": [
+              "Contêm produtos de origem animal",
+              "Contêm produtos de origem suína"
+            ],
+            "name": "Barreado/farinha de mandioca"
+          },
+          {
+            "calories": "400-600",
+            "changed": false,
+            "icons": [
+              "Indicado para veganos"
+            ],
+            "name": "Opção vegana: barreado de grão-de-bico"
+          },
+          {
+            "calories": "100-150",
+            "changed": false,
+            "icons": [
+              "Indicado para veganos"
+            ],
+            "name": "Banana assada"
+          },
+          {
+            "calories": "80-150",
+            "changed": false,
+            "icons": [
+              "Indicado para veganos",
+              "Contém leite e/ou derivados"
+            ],
+            "name": "Saladas de folhosas e tropical"
+          },
+          {
+            "calories": "30-60",
+            "changed": false,
+            "icons": [
+              "Indicado para veganos"
+            ],
+            "name": "Molho para saladas: vinagrete"
+          },
+          {
+            "calories": "40-70",
+            "changed": false,
+            "icons": [
+              "Indicado para veganos"
+            ],
+            "name": "Laranja"
+          }
+        ]
     },
-    "date": "19/06/2026",
-    "imgMenu": "https://ru-menu-images.s3.amazonaws.com/agr/19_06_2026_menu_agr.jpg",
-    "meals": {}
+    "restaurant": {
+      "code": "AGR",
+      "name": "Agrárias",
+      "url": "https://p4e.ufpr.br/ru/cardapio-ru-agrarias/"
+    }
   }
 }

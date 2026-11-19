@@ -43,7 +43,7 @@ var weekDay = []string{
 	"SÁBADO",
 }
 
-var legend = `🌱 - Indicado para veganos
+const legend = `🌱 - Indicado para veganos
 🥩 - Contém produtos de origem animal
 🐷 - Contém produtos de origem suína
 🌾 - Não indicado para celíacos por conter glúten
@@ -53,12 +53,12 @@ var legend = `🌱 - Indicado para veganos
 🍯 - Contém mel
 🌶️ - Contém pimenta`
 
-var title = `*CARDÁPIO RU %s - %s - %s*`
+const title = `*CARDÁPIO RU %s - %s - %s*`
 
-var modWarning = `Cardápio atualizado`
+const warningAI = "Estimativa de calorias gerada por IA com base em uma porção individual. Pode conter imprecisões."
 
-var taken = `Cardápio retirado de forma automatizada do site oficial do restaurante universitário disponível no link %s`
+const taken = `Cardápio obtido de forma automatizada pelo site oficial do restaurante universitário, disponível no link: %s.`
 
-var channel = `Essa mensagem foi enviada ao canal de WhatsApp disponível no link %s`
+const channel = `Esta mensagem foi enviada para o canal do WhatsApp, disponível no link: %s.`
 
-var copyright = "Esta mensagem e este canal não possuem relação com a universidade nem com o restaurante universitário"
+const copyright = "Esta mensagem e este canal não possuem relação com a universidade nem com o restaurante universitário."
