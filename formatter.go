@@ -15,11 +15,14 @@ func fmtLine(meal Meal) string {
 			emojis += " " + emoji
 		}
 	}
-	line := fmt.Sprintf("%s %s", meal.Name, emojis)
+
+	line := fmt.Sprintf("%s%s", meal.Name, emojis)
+
 	calories := strings.TrimSpace(meal.Calories)
-	if calories == "0-0" {
+	if calories == "" || calories == "0-0" {
 		return strings.TrimRight(line, " ")
 	}
+
 	return fmt.Sprintf("%s _(%skcal)_", line, calories)
 }
 
