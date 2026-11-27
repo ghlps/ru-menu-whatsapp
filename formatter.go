@@ -31,7 +31,7 @@ func fmtMeal(meals []Meal) string {
 	for _, meal := range meals {
 		line := fmtLine(meal)
 		if meal.Changed {
-			line += " (alterado)"
+			line += " *(alterado)*"
 		}
 		formatted = append(formatted, line)
 	}
